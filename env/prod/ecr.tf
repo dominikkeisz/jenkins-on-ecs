@@ -1,4 +1,4 @@
-resource "aws_ecr_repository" "jenkins-on-ecs" {
+resource "aws_ecr_repository" "jenkins_on_ecs" {
   name = "jenkins-on-ecs"
 
   image_scanning_configuration {
