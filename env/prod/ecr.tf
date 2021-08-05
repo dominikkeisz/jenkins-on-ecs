@@ -6,7 +6,7 @@ resource "aws_ecr_repository" "jenkins_on_ecs" {
   }
 }
 
-data "aws_ecr_image" "service_image" {
+/* data "aws_ecr_image" "service_image" {
   repository_name = "jenkins-on-ecs"
   image_tag       = "latest"
-}
+} */
